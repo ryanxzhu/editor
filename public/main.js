@@ -23,7 +23,7 @@ function type(e) {
 
 window.addEventListener('keydown', type);
 
-// To prevent someone from typing by just holding down a keyboard key
+// To prevent someone from typing by just holding down a keyboard key 😈😈
 window.addEventListener('keyup', (e) => {
 	if (key === e.key) key = '';
 });
